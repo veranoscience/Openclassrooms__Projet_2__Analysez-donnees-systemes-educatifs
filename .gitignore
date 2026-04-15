@@ -1,0 +1,26 @@
+# Données World Bank (fichier trop lourd pour GitHub > 100 MB)
+# Télécharger depuis : https://datacatalog.worldbank.org/search/dataset/0038480
+EdStatsData.csv
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+env/

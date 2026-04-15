@@ -1,0 +1,28 @@
+[project]
+name = "data_science"
+version = "0.1.0"
+description = "Projet OpenClassrooms - Analyse de données avec Python"
+authors = [
+    {name = "Ksenia Dautel"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.3,<3.0.0)",
+    "numpy (>=2.3.3,<3.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "pycountry",
+    "scikit-learn (>=1.5.2,<2.0.0)",
+    "plotly (>=5.24.1,<6.0.0)",
+    "jupyterlab",
+    "ipykernel"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+
